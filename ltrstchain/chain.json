@@ -73,5 +73,5 @@
       }
     }
   ],
-  "description": "LTRST Chain is a Cosmos SDK Layer 1 with privacy primitives at the protocol level, built so a family's living trust never has to live on a server owned by someone who could sell it, breach it, or quietly mine its data."
+  "description": "LTRST Chain is a Cosmos SDK Layer 1 with privacy primitives at the protocol level, built so a family's most personal digital assets — living trusts, legal documents, medical records, family legacy videos, and the video likeness of the grantor at the moment of signing — never have to live on a server owned by someone who could sell, breach, or quietly mine the data. The chain anchors and controls access; encrypted content lives where the family chooses."
 }
