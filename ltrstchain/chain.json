@@ -31,10 +31,10 @@
     ]
   },
   "codebase": {
-    "cosmos_sdk_version": "0.50",
-    "cosmwasm_enabled": false,
-    "cometbft_version": "0.38.17",
-    "ibc_go_version": "8.x",
+    "sdk": { "type": "cosmos", "version": "0.50" },
+    "consensus": { "type": "cometbft", "version": "0.38.17" },
+    "ibc": { "type": "go", "version": "8.x", "ics_enabled": ["ics20-1"] },
+    "cosmwasm": { "enabled": false },
     "genesis": {
       "genesis_url": "https://chain.larrytrustee.ai/trpc/genesis"
     }
@@ -63,15 +63,15 @@
     }
   ],
   "logo_URIs": {
-    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/ltrstchain/ltrst.png"
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/ltrstchain/images/ltrst.png"
   },
   "images": [
     {
-      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/ltrstchain/ltrst.png",
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/ltrstchain/images/ltrst.png",
       "theme": {
-        "primary_color_hex": "#d4a853"
+        "dark_mode": false
       }
     }
   ],
-  "description": "LTRST Chain is a Cosmos SDK Layer 1 with privacy primitives at the protocol level, built so a family's most personal digital assets — living trusts, legal documents, medical records, family legacy videos, and the video likeness of the grantor at the moment of signing — never have to live on a server owned by someone who could sell, breach, or quietly mine the data. The chain anchors and controls access; encrypted content lives where the family chooses."
+  "description": "LTRST Chain is a Cosmos SDK Layer 1 with privacy primitives at the protocol level, built so a family's living trust never has to live on a server owned by someone who could sell it, breach it, or quietly mine its data."
 }
