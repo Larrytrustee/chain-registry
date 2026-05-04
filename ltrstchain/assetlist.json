@@ -8,7 +8,16 @@
         {
           "denom": "ultrst",
           "exponent": 0,
-          "aliases": []
+          "aliases": [
+            "microltrst"
+          ]
+        },
+        {
+          "denom": "mltrst",
+          "exponent": 3,
+          "aliases": [
+            "milliltrst"
+          ]
         },
         {
           "denom": "LTRST",
@@ -17,7 +26,7 @@
       ],
       "type_asset": "sdk.coin",
       "base": "ultrst",
-      "name": "LarryTrustee.AI",
+      "name": "LTRST",
       "display": "LTRST",
       "symbol": "LTRST",
       "logo_URIs": {

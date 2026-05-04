@@ -55,6 +55,22 @@
       "genesis_url": "https://chain.larrytrustee.ai/trpc/genesis"
     }
   },
+  "peers": {
+    "seeds": [
+      {
+        "id": "948731cf3500d931757ec5cc312496b9a5e3719b",
+        "address": "45.32.222.33:26656",
+        "provider": "LarryTrustee.AI"
+      }
+    ],
+    "persistent_peers": [
+      {
+        "id": "948731cf3500d931757ec5cc312496b9a5e3719b",
+        "address": "45.32.222.33:26656",
+        "provider": "LarryTrustee.AI"
+      }
+    ]
+  },
   "apis": {
     "rpc": [
       {
@@ -67,8 +83,7 @@
         "address": "https://chain.larrytrustee.ai/tapi/",
         "provider": "LarryTrustee.AI"
       }
-    ],
-    "grpc": []
+    ]
   },
   "explorers": [
     {
