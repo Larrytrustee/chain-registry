@@ -10,7 +10,9 @@
   "bech32_prefix": "ltrst",
   "daemon_name": "ltrstchaind",
   "node_home": "$HOME/.ltrstchain",
-  "key_algos": ["secp256k1"],
+  "key_algos": [
+    "secp256k1"
+  ],
   "slip44": 118,
   "fees": {
     "fee_tokens": [
@@ -31,10 +33,24 @@
     ]
   },
   "codebase": {
-    "sdk": { "type": "cosmos", "version": "0.50" },
-    "consensus": { "type": "cometbft", "version": "0.38.17" },
-    "ibc": { "type": "go", "version": "8.x", "ics_enabled": ["ics20-1"] },
-    "cosmwasm": { "enabled": false },
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.50"
+    },
+    "consensus": {
+      "type": "cometbft",
+      "version": "0.38.17"
+    },
+    "ibc": {
+      "type": "go",
+      "version": "8.5.2",
+      "ics_enabled": [
+        "ics20-1"
+      ]
+    },
+    "cosmwasm": {
+      "enabled": false
+    },
     "genesis": {
       "genesis_url": "https://chain.larrytrustee.ai/trpc/genesis"
     }
